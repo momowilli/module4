@@ -2,22 +2,27 @@ body {
     max-width: 60em;
     margin: 0 auto 0 auto;
     background-color: black;
-    background-image: url("TellTaleHeart.jpg"); /* may be replaced */ /* if used, credit the Poe Museum */
+    background-image: url("../images/TellTaleHeart.jpg"); /* credit the Poe Museum */
     background-repeat: no-repeat;
     background-position: right bottom;
 }
 
 h1 {
     background-color: red;
-    opacity: 0.3;
+    opacity: 1.0;
+    padding: 25px 0;
+    border: 5px white;
+    text-align: center;
     color: white;
-    font-family: American Typewriter, serif;
+    font-family: American Typewriter, serif; /* may change typeface for improved readability */
     font-size: 250%;
 }
 
 p {
     background-color: white;
-    opacity: 0.3;
+    opacity: 0.8;
+    padding: 10px 0;
+    border: 3px red;
     color: black;
     font-family: Optima, sans-serif;
     font-size: 125%;

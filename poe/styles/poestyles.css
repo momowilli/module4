@@ -1,0 +1,30 @@
+body {
+    max-width: 60em;
+    margin: 0 auto 0 auto;
+    background-color: black;
+    background-image: url("TellTaleHeart.jpg"); /* may be replaced */ /* if used, credit the Poe Museum */
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+h1 {
+    background-color: red;
+    opacity: 0.3;
+    color: white;
+    font-family: American Typewriter, serif;
+    font-size: 250%;
+}
+
+p {
+    background-color: white;
+    opacity: 0.3;
+    color: black;
+    font-family: Optima, sans-serif;
+    font-size: 125%;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    padding: 1em;
+}
